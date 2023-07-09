@@ -2,7 +2,7 @@
 
 ## Data Preprocessing
 Image Augmentation - geometric transformations such as rescaling, flipping, rotation.
-Transformed 64 X 64 X 3 Input Shape
+Transformed  Input Shape - 64 X 64 X 3
 
 ## Model Parameters:
 1. Convolution Layer
@@ -13,5 +13,10 @@ Transformed 64 X 64 X 3 Input Shape
 6. Dense Input Layer 
 7. Dense Ouput Layer - Binary Classification using Sigmoid
 
-## Training Model
+## Model Configuration
++ Optimization Algorithm = `adam`
++ Loss Function = `binary_crossentropy`
+
+## Model Accuracy 
+91%
 
